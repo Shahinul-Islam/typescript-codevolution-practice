@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 interface PersonProps {
     personName:{
         firstName:string
@@ -6,7 +6,7 @@ interface PersonProps {
     }
 }
 
-const Person = ({personName}:PersonProps) => {
+ const Person = ({personName}:PersonProps) => {
     const {firstName,lastName} = personName;
     return (
         <div>
